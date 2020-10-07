@@ -20,7 +20,12 @@ namespace IFCConvertoLibrary
         private static void InstallBinaryFile(string filename, byte[] bytes)
         {
             string path = Path.Combine(IOUtils.AssemblyDirectory, filename);
-            if (File.Exists(path)) return;
+
+            if (File.Exists(path))
+            {
+                return;
+            }
+
             File.WriteAllBytes(path, bytes);
         }
 
@@ -46,12 +51,12 @@ namespace IFCConvertoLibrary
             info.UseShellExecute = false;
             info.CreateNoWindow = true;
 
-
             using (var proc = new Process())
             {
                 proc.StartInfo = info;
                 proc.Start();
                 string message = proc.StandardOutput.ReadToEnd();
+
                 if (callback != null)
                 {
                     callback(message);
