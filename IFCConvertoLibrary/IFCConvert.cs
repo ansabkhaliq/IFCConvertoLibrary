@@ -29,7 +29,7 @@ namespace IFCConvertoLibrary
             File.WriteAllBytes(path, bytes);
         }
 
-        public static void Convert(string source, string target, Action<string> callback = null)
+        public static void Convert(string source, string target)
         {
             InstallIfcConvert();
 
@@ -47,25 +47,14 @@ namespace IFCConvertoLibrary
             info.Arguments = string.Format("\"{0}\" \"{1}\"", source, target);
 
             info.RedirectStandardInput = false;
-            info.RedirectStandardOutput = true;
+            info.RedirectStandardOutput = false;
             info.UseShellExecute = false;
             info.CreateNoWindow = true;
 
             using (var proc = new Process())
             {
                 proc.StartInfo = info;
-                proc.Start();
-                string message = proc.StandardOutput.ReadToEnd();
-
-                if (callback != null)
-                {
-                    callback(message);
-                }
-                else
-                {
-                    Console.WriteLine();
-                }
-
+                proc.Start();                               
             }
         }
     }
