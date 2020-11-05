@@ -5,7 +5,8 @@
 3. [System Requirements](##System-Requirements)
 4. [Technologies Used](##Technologies-Used)
 5. [Setup Guide](##Setup-Guide)
-6. [Attribution](##Attribution)
+6. [Release Histroy](##Release-History)
+7. [Attribution](##Attribution)
 
 ## Project Description
 This repository contain a library project that is consumed by the [Dekstop Utility](https://github.com/ansabkhaliq/IFCConverto). This library project basically uses a [IfcOpenShell](http://ifcopenshell.org/ifcconvert) .exe file and packs it in to a .dll file which can then be added as a dependency in other projects. 
@@ -33,6 +34,10 @@ The version of the current .exe file is 0.6.0.
 * Right click the solution in the solution explorer window and click clean
 * Choose the Solution Platform (either x64 or x86) from the top menu and right click the solution file to choose build option
 * Depending on the Solution Platform chosen you will find appropriate Release folder (Release64 or Release86) in the bin folder which will contain the dll file
+
+## Release History
+### Sprint 2
+* 1.0.0 - Initial Release. Done as part of userstory *ID: 4; Name: Converting IFC files in to the 3D Model* on [branch](https://github.com/ansabkhaliq/IFCConverto/tree/ConvertIFCFileTo3DModels%26ProcessTextfiles)
 
 ## Attribution
 Created by SQ-Wombat
