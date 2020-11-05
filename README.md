@@ -8,14 +8,14 @@
 6. [Attribution](##Attribution)
 
 ## Project Description
-This repository contain a library project that is consumed by the [Dekstop Utility](https://github.com/ansabkhaliq/IFCConverto). This library project basically uses a [IfcOpenShell](http://ifcopenshell.org/ifcconvert) CLI based convert .exe file and packs it in to a .dll file which can then be added as a dependency in other projects. 
+This repository contain a library project that is consumed by the [Dekstop Utility](https://github.com/ansabkhaliq/IFCConverto). This library project basically uses a [IfcOpenShell](http://ifcopenshell.org/ifcconvert) .exe file and packs it in to a .dll file which can then be added as a dependency in other projects. 
 
 The library project is configured such that, you can use it to generate 32bit dll or 64bit dll, depending on your requirements and usecase. 
 
-The version of the current CLI exe file is 0.6.0. 
+The version of the current .exe file is 0.6.0. 
 
 ## Features
-* Takes a CLI based .exe file to and packs it in to the .dll
+* Takes a .exe file to and packs it in to the .dll
 * Can be used to generate the 32bit or 64bit dll
 * The .exe files can be replaced with newer version to generate .dll files for newer version of CLI exe
 * The .dll file produced by this library project can be used in other projects to convert IFC files in to following formats: .obj, .dae, .stp, .igs, .xml, .svg, .glb
