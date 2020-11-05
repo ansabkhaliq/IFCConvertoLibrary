@@ -37,7 +37,7 @@ The version of the current .exe file is 0.6.0.
 
 ## Release History
 ### Sprint 2
-* 1.0.0 - Initial Release. Done as part of userstory *ID: 4; Name: Converting IFC files in to the 3D Model* in project [IFC Converto] (https://github.com/ansabkhaliq/IFCConverto) on [branch](https://github.com/ansabkhaliq/IFCConverto/tree/ConvertIFCFileTo3DModels%26ProcessTextfiles)
+* 1.0.0 - Initial Release. Done as part of userstory *ID: 4; Name: Converting IFC files in to the 3D Model* in project [IFC Converto](https://github.com/ansabkhaliq/IFCConverto) on [branch](https://github.com/ansabkhaliq/IFCConverto/tree/ConvertIFCFileTo3DModels%26ProcessTextfiles)
 
 ## Attribution
 Created by SQ-Wombat
