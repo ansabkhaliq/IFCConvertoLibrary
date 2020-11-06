@@ -1,12 +1,12 @@
 # IFCConvertoLibrary
 ## Table of Contents
-1. [Project Description](##Project-Description)
-2. [Features](##Features)
-3. [System Requirements](##System-Requirements)
-4. [Technologies Used](##Technologies-Used)
-5. [Setup Guide](##Setup-Guide)
-6. [Release Histroy](##Release-History)
-7. [Attribution](##Attribution)
+1. [Project Description](#Project-Description)
+2. [Features](#Features)
+3. [System Requirements](#System-Requirements)
+4. [Technologies Used](#Technologies-Used)
+5. [Setup Guide](#Setup-Guide)
+6. [Release Histroy](#Release-History)
+7. [Attribution](#Attribution)
 
 ## Project Description
 This repository contain a library project that is consumed by the [Dekstop Utility](https://github.com/ansabkhaliq/IFCConverto). This library project basically uses a [IfcOpenShell](http://ifcopenshell.org/ifcconvert) .exe file and packs it in to a .dll file which can then be added as a dependency in other projects. 
